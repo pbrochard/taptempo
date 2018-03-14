@@ -6,18 +6,25 @@ A command line tap tempo. Hit a key with style and you'll get the BPM. (Clojure 
 
 Run with
 
+~~~~
   lein run
+~~~~
 
 Compile with:
 
+~~~~
   lein uberjar
+~~~~
 
 and run with:
 
+~~~~
   java -jar target/taptempo-0.1.0-SNAPSHOT-standalone.jar
+~~~~
 
 Options are:
 
+~~~~
   java -jar target/taptempo-0.1.0-SNAPSHOT-standalone.jar --help
   Usage: TapTempo [options]
 
@@ -27,6 +34,7 @@ Options are:
     -s, --sample-size N   5  change the number of samples needed to calculate the tempo. The default is 5 samples
     -v, --version            print the version number
     -h, --help
+~~~~
 
 ## License
 
