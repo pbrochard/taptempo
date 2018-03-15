@@ -1,6 +1,8 @@
-# taptempo
+# TapTempo: Clojure version
 
-A command line tap tempo. Hit a key with style and you'll get the BPM. (Clojure version)
+A command line tap tempo. Hit a key with style and you'll get the BPM.
+
+Clojure implementation of https://github.com/moleculext/taptempo. It started as a joke on LinuxFR where everybody implements its own TapTempo using its favorite language.
 
 ## Usage
 
@@ -34,6 +36,12 @@ Options are:
     -s, --sample-size N   5  change the number of samples needed to calculate the tempo. The default is 5 samples
     -v, --version            print the version number
     -h, --help
+~~~~
+
+Unit test can be launch with:
+
+~~~~
+  lein test
 ~~~~
 
 ## License
